@@ -1,3 +1,3 @@
 export function handler(request, response) {
-	return response.end('hello')
+	return response.end('hello\n')
 }

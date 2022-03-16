@@ -66,3 +66,18 @@ Marque esse projeto com uma estrela 🌟
 
 ### Fonte
 - https://github.com/ErickWendel/semanajsexpert-spotify-template/tree/cb7adb0b92181dc12343ee60540b79e176783165
+
+### How to Execute
+> npm start
+
+In a paralel Terminal
+> curl localhost:3000
+
+For development, we are going to work with NodeMon version 2
+> npm i -D nodemon@2
+
+To reaload the Index.js with eventual changes
+> live-reload
+
+To install the Pino as a Log Library
+> npm install pino@7.8.0 pino-pretty@7.5.3
