@@ -1,0 +1,8 @@
+Service		- Business Rules and Processes
+Controler	- Interface between the Presentation/Routes layer and Service layer
+Routes		- Presentation layer
+Server		- Responsible for Server creation (but do not instanciate it)
+Index		- Instanciate the Server and exposes it to the Web (Infrastructure layer)
+Config		- Every static configuration of the project 
+
+Index calls Server, that calls the Routes.
